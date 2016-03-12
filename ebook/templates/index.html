@@ -1,15 +1,143 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="/static/css/ebook.css" rel="stylesheet">
 </head>
-<body>
-    <h2>这是需要完成的首页</h2>
-    git add -A
-    git commit -m 'add a page'
-    git push
-    <script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/static/js/index.js"></script>
+<body id="body">
+<a name="dingbu"></a>
+<div id="head"></div>
+<div id="contentTop"></div>
+
+<div id="contentBody">
+    <div id="contentBodyFirst"></div>
+    <div id="contentBodySecond"></div>
+    <div id="contentBodyThird"></div>
+    <div id="contentBodyFourth">
+        <img id="image" onclick="ch2();" onmouseover="ch3();" onmouseout="ch4();" src="/static/img/g5.jpg" style="width: 500px;height: 375px;border: solid grey 0px;" />
+    </div>
+    <div id="contentBodyFifth"></div>
+</div>
+
+
+<div id="contentFoot">
+    <p>
+        <h id="headline" style>
+            往期杂志
+        </h>
+    </p>
+    <br>
+    <br>
+    <br>
+    <p>
+        <h id="headline2">
+            --BACK&nbsp;NUMBER--
+        </h>
+    </p>
+</div>
+
+
+<div id="content">
+    <div id="contentLeft"></div>
+    <div class="content">
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/2.jpg"/>
+            </a>
+        </div>
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/5.jpg"/>
+            </a>
+        </div>
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/4.jpg"/>
+            </a>
+        </div>
+    </div>
+    <div class="contentBlank"></div>
+    <div class="content">
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/3.jpg"/>
+            </a>
+        </div>
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/6.jpg"/>
+            </a>
+        </div>
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/9.jpg"/>
+            </a>
+        </div>
+    </div>
+    <div class="contentBlank"></div>
+    <div class="content">
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/1.jpg"/>
+            </a>
+        </div>
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/7.jpg"/>
+            </a>
+        </div>
+        <div class="picture">
+            <a href="">
+                <img src="/static/img/8.jpg"/>
+            </a>
+        </div>
+    </div>
+    <div id="contentRight"></div>
+</div>
+
+
+<div id="foot">
+    <div id="footTop">
+
+        <div id="footTopFirst">
+            <img src="/static/img/青传logo.gif"/>
+        </div>
+
+
+        <div id="footTopSecond">
+            <p>
+                <h id="zi1">友情链接</h>
+            </p>
+            <p>
+                <a href=""><h class="zi2">武汉大学</h></a>
+            </p>
+            <p>
+                <a href=""><h class="zi2">武汉大学未来网</h></a>
+            </p>
+        </div>
+
+        <div id="footTopThird">
+            <p>
+                <a href=""><h class="zi3">主办单位：&nbsp;&nbsp;共青团武汉大学委员会|鄂ICP备06009949</h></a>
+            </p>
+            <p>
+                <a href=""><h class="zi3">技术支撑：武汉大学青年传媒集团技术中心</h></a>
+            </p>
+
+            <a href="#dingbu"><img id="jiantou" style="width: 50px;height: 50px;" onmouseover="toTop1();" onmouseout="toTop2();" alt="回到顶部" title="回到顶部" src="/static/img/jiantou.jpg"/></a>
+        </div>
+    </div>
+
+    <div id="footBottom">
+        <h id="zi4">Copyright@2001-2006&nbsp;All&nbsp;Rirht&nbsp;Reserved&nbsp;版权所有&nbsp;武汉大学未来网</h>
+    </div>
+</div>
+
+
+<script src="/static/js/ebook.js" type="text/javascript"></script>
 </body>
 </html>

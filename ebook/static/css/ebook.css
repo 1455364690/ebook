@@ -1,0 +1,176 @@
+a{
+    text-decoration: none;
+}
+
+#body{
+    float: left;
+    width: 98.85099%;
+    height: 1500px;
+
+}
+#head{
+    float: none;
+    margin: -8px;
+    width:auto;
+    height: 516px;
+    background: url("/static/img/head背景.jpg") no-repeat  ;
+    padding: 0px;
+
+}
+#contentTop{
+    float: left;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background: url("/static/img/head背景下三角.gif") center no-repeat;
+}
+#contentBody{
+    float: left;
+    width: 100%;
+    height: 443px;
+    background-color: rgb(249,245,240);
+
+}
+#contentBodyFirst{
+    float: left;
+    width: 12.5%;
+    height: 100%;
+}
+#contentBodySecond{
+    float: left;
+    width: 29%;
+    height: 100%;
+    background: url("/static/img/本期唱游背景.gif") center no-repeat;
+}
+#contentBodyThird{
+    float: left;
+    width: 14.6%;
+    height: 100%;
+}
+#contentBodyFourth{
+    float: left;
+    width: 36.7%;
+    height: 100%;
+}
+#contentBodyFifth{
+    float: left;
+    width: 6.25%;
+    height: 100%;
+}
+#contentFoot{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+#headline{
+    float: left;
+    font-size: 48px;
+    margin-left: 42%;
+    font-family: "方正风雅宋简体";
+}
+#headline2{
+    float: left;
+    font-size: 24px;
+    margin-left: 42%;
+}
+#content{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 32cm;
+}
+#contentLeft{
+    float: left;
+    width: 12.5%;
+    height: 100%;
+}
+.content{
+    float: left;
+    width:248px ;
+    height: 100%;
+}
+.picture{
+    float:left;
+    width: 248px;
+    height: 360px;
+    margin-bottom: 50px;
+}
+.contentBlank{
+    float: left;
+    width: 128px;
+    height: 100%;
+    background-color: white;
+}
+#contentRight{
+    float: left;
+    width: 12.5%;
+    height: 100%;
+
+}
+
+#foot{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    height: 290px;
+    background-color: #888888;
+}
+#footTop{
+    float: left;
+    width: 100%;
+    height: 245px;
+}
+#footTopFirst{
+    float: left;
+    width: 12%;
+    height: 100%;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+#footTopSecond{
+    float: left;
+    width: 12%;
+    height: 80%;
+    border-right: solid 2px white ;
+    padding-top: 50px;
+}
+
+#zi1{
+    font-size: 14px;
+    font-family: "黑体";
+    color: white;
+}
+.zi2{
+    font-size: 14px;
+    font-family: "黑体";
+    color: white;
+}
+#footTopThird{
+    float: left;
+    width: 50%;
+    height:80%;
+    padding-top: 65px;
+    padding-left: 30px;
+}
+#jiantou{
+    margin-left: 800px;
+}
+.zi3{
+    font-size: 14px;
+    font-family: "黑体";
+    color: white;
+}
+
+#footBottom{
+    float: left;
+    width: 35%;
+    height: 44px;
+    background-color: rgba(73,66,66,1);
+    padding-left: 65%;
+}
+#zi4{
+    font-size: 14px;
+    font-family: "黑体";
+    color: white;
+    line-height: 44px;
+}

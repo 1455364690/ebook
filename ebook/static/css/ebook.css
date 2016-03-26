@@ -8,7 +8,11 @@ div{
 body{
 
     width: 1336px;
-    height: 1500px;
+    height: 2645px;
+    background-color: rgba(0,0,255,0.1);
+    overflow: Scroll;
+    overflow-x: hidden;
+    margin-bottom: inherit;
 
 }
 #head{
@@ -103,7 +107,6 @@ body{
 
     width: 128px;
     height: 100%;
-    background-color: white;
 }
 #contentRight{
 
@@ -116,8 +119,10 @@ body{
 
     margin-top: 10px;
     width: 100%;
-    height: 290px;
+    height: 280px;
     background-color: #888888;
+    margin-bottom: -20px;
+    margin-left: -8px;
 }
 #footTop{
 

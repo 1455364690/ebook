@@ -136,3 +136,13 @@ $("#image").mouseover(function(){
         "opacity":"0.5"
     });
 });
+
+
+
+
+
+
+
+
+
+//以下是ajax部分

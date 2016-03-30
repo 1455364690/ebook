@@ -1,5 +1,6 @@
 /* Created by sunjiahui on 3/10/16.
  */
+//»Øµ½¶¥²¿¼ýÍ·±ä»¯
 function toTop1(){
     var goToTop=document.getElementById('jiantou');
     var imgw=parseInt(jiantou.style.width);
@@ -14,31 +15,32 @@ function toTop2(){
     goToTop.style.width=imgw-30+'px';
     goToTop.style.height=imgh-30+'px';
 }
+//Ö÷Ò³Í¼Æ¬
+$.ajax({
+    url:"",
+    method:"get",
+    success:function(data) {
+        var template = "";
+        for (var i = 0; i < data.length; i++) {
+            template +="<a href='"+data[i]['url']+"'><div class='picture' id='picture"+i+1+"'><img class='aaa' src='"+data[i]['imgsrc']+"'/><p hidden> <h class='zi5'>"+data[i]['intro']+"</h><br><h class='zi6'>"+data[i]['qqq']+"</h></p></div></a>";
+        }
+    }
+});
+//³©ÓÎ±³¾°
+$.ajax({
+    url:"",
+    method:"get",
+    success:function(data){
+        var template="";
+            template+="<i style='position: absolute;margin:50px;font-size: 25px'>"+data['intro']+"</i>";
+        }
+});
 
-var arr=new Array();
-arr[0]="../static/img/g5.jpg";
-arr[1]="../static/img/g4.jpg";
-arr[2]="../static/img/g3.jpg";
-arr[3]="../static/img/g2.jpg";
-arr[4]="../static/img/g1.jpg";
-
-var num=0;
-setInterval(turnpic,4000);
-function turnpic(){
-    idsrc=document.getElementById("image");
-    if(num==arr.length-1)
-        num=0;
-    else
-        num+=1;
-    idsrc.src=arr[num];
-}
-
-//ï¿½ï¿½Ò³ï¿½ï¿½Í¼Æ¬Ð§ï¿½ï¿½
 $(function(){
-   $("#picture1").mouseover(function(){
-       $("#picture1 img").hide();
-       $("#picture1 p").show()
-   });
+    $("#picture1").mouseover(function(){
+        $("#picture1 img").hide();
+        $("#picture1 p").show()
+    });
     $("#picture1").mouseout(function(){
         $("#picture1 img").show();
         $("#picture1 p").hide()
@@ -139,10 +141,21 @@ $("#image").mouseover(function(){
 
 
 
+/*document.addEventListener('mouseover',function(e){
+    if(e.target.classList.contains('_body_picture')){
+        e.target.style.display='none';
+        e.target.previousSibling.style.display="show";
+    }
+});
+
+document.addEventListener('mouseout',function(e){
+    if(e.target.classList.contains('picture')){
+        $("._body_picture").show();
+        $(".picture> p").hide();
+    }
+});*/
+//ÂÖ²¥Í¼Æ¬
 
 
 
 
-
-
-//ä»¥ä¸‹æ˜¯ajaxéƒ¨åˆ†
